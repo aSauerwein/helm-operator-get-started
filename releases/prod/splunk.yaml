@@ -7,6 +7,6 @@ metadata:
 spec:
   releaseName: splunk-prod
   chart:
-    git: git@github.com:fluxcd/helm-operator-get-started
+    git: git@github.com:asauerwein/helm-operator-get-started
     path: charts/mssp-helmchart
     ref: master
