@@ -1,0 +1,12 @@
+{{- range .Values.splunk.standalones }}
+---
+apiVersion: enterprise.splunk.com/v1alpha2
+kind: Standalone
+metadata:
+  name: {{ . }}
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+  labels:
+    "app.kubernetes.io/managed-by": Release
+    andi: test
+{{ end -}}

@@ -1,0 +1,13 @@
+splunk:
+  standalones:
+    - splshe001
+    - splshc001
+    - splshd001
+    - splcm001
+    - splhf001
+    - syslog001
+  indexer:
+    - splidx001
+    - splidx002
+    - splidx003
+    - splidx004

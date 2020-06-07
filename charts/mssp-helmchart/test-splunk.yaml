@@ -1,0 +1,9 @@
+---
+apiVersion: enterprise.splunk.com/v1alpha2
+kind: Standalone
+metadata:
+  name: splidx001-test
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+  labels:
+    test: Helm
