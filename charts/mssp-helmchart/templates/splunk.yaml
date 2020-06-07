@@ -6,7 +6,4 @@ metadata:
   name: {{ . }}
   finalizers:
   - enterprise.splunk.com/delete-pvc
-  labels:
-    "app.kubernetes.io/managed-by": Release
-    andi: test
 {{ end -}}
